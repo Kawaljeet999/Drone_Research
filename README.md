@@ -1,9 +1,9 @@
 # Drone Forensics Research  
-## Resolving Polysemy in Drone-Related Text Using Context-Aware Models
+## Resolving Polysemous Words in Drone-Related Text Using Context-Aware Models
 
 ---
 
-## Polysemy Example in Drone Forensics
+## Polysemous Words Example in Drone Forensics
 
 **Sentence:**
 
@@ -28,7 +28,7 @@ Transformer-based models generate **contextual embeddings**, where:
 - *bank* near *river, flew past* → geographic meaning  
 - *bank* near *secure, data storage* → institutional meaning  
 
-This resolves polysemy directly at the semantic representation level.
+This resolves Polysemous Words directly at the semantic representation level.
 
 ---
 
@@ -39,7 +39,7 @@ This resolves polysemy directly at the semantic representation level.
 | BERT        | Drone Incident Text Dataset       | 89.2         |
 | ALBERT      | Surveillance Communication Data  | 87.6         |
 | RoBERTa     | Drone Forensics Report Dataset    | **95.0**     |
-| DistilBERT  | Synthetic Polysemy Drone Dataset | 86.3         |
+| DistilBERT  | Synthetic Polysemous Words Drone Dataset | 86.3         |
 | DeBERTa     | Secure Drone Log Dataset          | 92.0         |
 
 ---
